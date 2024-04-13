@@ -321,6 +321,7 @@ h5 a {
     }
     footer h6 {
         top: 730px;
+        display: none;
     }
     
 }
