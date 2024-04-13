@@ -24,8 +24,7 @@ function validateForm() {
     else {
         password.style.borderColor = 'red';
         confirmpassword.style.borderColor = 'red';
-        errorMsg.textContent = "*Passwords does not match";
-        errorMsg.className = 'text-error'
+        
        
         
     }
