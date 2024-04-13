@@ -265,7 +265,7 @@ h5 a {
         width: 100%;
         position: relative;
         align-items: center;
-        
+        display: none;
        
         
     }
@@ -314,15 +314,8 @@ h5 a {
     .item div  {
         width: 90%
     }
-    main {
-        
-        padding-top: 60vmin;
-        margin-inline-start: 11%;
-    }
-    .btn {
-        
-        margin-inline-start: -10%;
-    }
+    
+    
     aside {
         padding-bottom: 40vmin;
     }
