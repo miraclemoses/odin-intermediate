@@ -309,7 +309,7 @@ h5 a {
 
 @media (min-width:768px)  {
     .item div input {
-        min-width:  50%;
+        max-width:  80%;
     }
     .item div  {
         width: 70%
@@ -322,6 +322,9 @@ h5 a {
     footer h6 {
         top: 730px;
         display: none;
+    }
+    main {
+        margin-top: 8%;
     }
     
 }
