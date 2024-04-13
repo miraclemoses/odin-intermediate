@@ -222,7 +222,7 @@ h5 a {
     }
     aside {
         width: 100%;
-        padding-bottom: 10.5rem;
+        padding-bottom: 20.5rem;
     }
     main {
         padding: 0;
@@ -354,7 +354,7 @@ h5 a {
     }
     #background {
         width: 100%;
-        min-height: 65rem;
+        min-height: 95rem;
     }
     /* #odin-logo {
         position: relative;
@@ -394,7 +394,7 @@ h5 a {
         position: relative;
     }
     footer h6 {
-        visibility: visible;
+       display: none;
         
         position: relative;
         top: 28rem;
@@ -404,5 +404,8 @@ h5 a {
     }
     main {
         height: 100%;
+    }
+    input {
+        width: 80%;
     }
 }
