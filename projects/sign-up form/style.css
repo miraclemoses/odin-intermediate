@@ -222,7 +222,7 @@ h5 a {
     }
     aside {
         width: 100%;
-        padding-bottom: 3.5rem;
+        padding-bottom: 15.5rem;
     }
     main {
         padding: 0;
@@ -265,7 +265,7 @@ h5 a {
         width: 100%;
         position: relative;
         align-items: center;
-        
+        display: none;
        
         
     }
@@ -309,25 +309,22 @@ h5 a {
 
 @media (min-width:768px)  {
     .item div input {
-        min-width:  90%;
+        max-width:  80%;
     }
     .item div  {
-        width: 90%
+        width: 70%
     }
-    main {
-        
-        padding-top: 60vmin;
-        margin-inline-start: 11%;
-    }
-    .btn {
-        
-        margin-inline-start: -10%;
-    }
+    
+    
     aside {
         padding-bottom: 40vmin;
     }
     footer h6 {
         top: 730px;
+        display: none;
+    }
+    main {
+        margin-top: -3%;
     }
     
 }
@@ -361,7 +358,7 @@ h5 a {
     }
     #background {
         width: 100%;
-        min-height: 45rem;
+        min-height: 95rem;
     }
     /* #odin-logo {
         position: relative;
@@ -373,7 +370,7 @@ h5 a {
         top: 16rem;
         display: flex;
         flex-direction: row;
-        
+        display: none;
         justify-content: center;
     }
     footer h6 {
@@ -401,7 +398,7 @@ h5 a {
         position: relative;
     }
     footer h6 {
-        visibility: visible;
+       display: none;
         
         position: relative;
         top: 28rem;
@@ -411,5 +408,8 @@ h5 a {
     }
     main {
         height: 100%;
+    }
+    input {
+        width: 70%;
     }
 }
