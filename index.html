@@ -1,71 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="projects/sign-up form/style.css">
-    <title>Sign-up Form</title>
-</head>
-<body>
-    <div class="container">
-        <aside >
-            <img id="background" src="projects/sign-up form/img/halie-west-25xggax4bSA-unsplash.jpg" alt="background.png">
-            <div id="odin-logo">
-                <img id="logo" src="projects/sign-up form/img/odin-lined.png" alt="logo.png">
-                <h1>ODIN</h1>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../dashboard/style.css">
+  </head>
+  <body>
+        <header class="header">
+            <img class="material-icons-outlined" src="../dashboard/img/view-dashboard.svg" alt="dashboard-icon">
+            <div class="top">
+                
+                <div class="search">
+                    <img class="search-icon" src="../dashboard/img/magnify.svg" alt="search-icon">
+                    <input type="search" name="search" id="search">
+                </div>
+                <div class="account">
+                    <img class="material-icons" src="../dashboard/img/bell-ring.svg" alt="alarm-icon" >
+                    <div class="back-color-sm">
+                        <div class="picture"></div>
+                    </div>
+                    <p class="name">Morgan Oakley</p>
+                </div>
             </div>
-            <footer><h6>Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></h6></footer>
+            <div class="bottom">
+                <div class="profile">
+                    <div class="back-color">
+                        <div class="picture"></div>
+                    </div>
+                    <div class="profile-name">
+                        <p class="greeting">Hi there,</p>
+                        <p class="name">Morgan Oakley(@morgan)</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                        <button class="btn">New</button>
+                        <button class="btn">Upload</button>
+                        <button class="btn">Share</button>
+                </div>
+                
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h1 class="sidebar-title">
+                <img class="material-icons-outlined" src="../dashboard/img/view-dashboard.svg" alt="dashboard-icon">
+                Dashboard
+            </h1>
+            <ul class="nav">
+                <li class="nav-item current">
+                  <a href="#" class="nav-link"
+                    ><img class="material-icons" src="../dashboard/img/home-outline.svg">
+                     Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"
+                      ><img class="material-icons" src="../dashboard/img/card-account-details-outline.svg">
+                       Profile</a>
+                  </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"
+                      ><img class="material-icons" src="../dashboard/img/message-reply-outline.svg">
+                      Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"
+                      ><img class="material-icons" src="../dashboard/img/clock-outline.svg">
+                      History</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"
+                      ><img class="material-icons" src="../dashboard/img/file-multiple-outline.svg">
+                      Tasks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"
+                      ><img class="material-icons" src="../dashboard/img/account-group-outline.svg">
+                      Communities</a>
+                </li>
+                
+            </ul>
+            <ul class="nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link"
+                  ><img class="material-icons" src="../dashboard/img/cog.svg">
+                  Setting</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"
+                    ><img class="material-icons" src="../dashboard/img/help-box-outline.svg">
+                    Support</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"
+                    ><img class="material-icons" src="../dashboard/img/security.svg">
+                    Privacy</a>
+                </li>
+            </ul>
         </aside>
-        <main>
-            <form action="" method="post">
-            <div>
-                <h3>This is not a real online service! You know you need something <br>
-                    like this in your life to help you realize your deepest dreams. <br>
-                    Sign up <i>now</i> to get started.</h3>
-                    <h3>You <i>know</i> you want to.</h3>
+        
+        <main class="content">
+            <div class="projects">
+                <h3 class="projects-section ">Your Projects</h3>
+            <div class="cards">
+                <div class="card">
+                  <h5 class="title">Super Cool Project</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo..</p>
+                  <div class="actions">
+                    <img class="material-icons" src="../dashboard/img/star-plus-outline.svg">
+                    <img class="material-icons" src="../dashboard/img/eye-plus-outline.svg">
+                    <img class="material-icons" src="../dashboard/img/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                  <h5 class="title">Less Cool Project</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo..</p>
+                  <div class="actions">
+                      <img class="material-icons" src="../dashboard/img/star-plus-outline.svg">
+                    <img class="material-icons" src="../dashboard/img/eye-plus-outline.svg">
+                    <img class="material-icons" src="../dashboard/img/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="title">Impossible App</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo..</p>
+                    <div class="actions">
+                        <img class="material-icons" src="../dashboard/img/star-plus-outline.svg">
+                        <img class="material-icons" src="../dashboard/img/eye-plus-outline.svg">
+                        <img class="material-icons" src="../dashboard/img/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="title">Easy Peasy App</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo..</p>
+                    <div class="actions">
+                        <img class="material-icons" src="../dashboard/img/star-plus-outline.svg">
+                        <img class="material-icons" src="../dashboard/img/eye-plus-outline.svg">
+                        <img class="material-icons" src="../dashboard/img/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                  <h5 class="title">Ad Blocker</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo..</p>
+                  <div class="actions">
+                      <img class="material-icons" src="../dashboard/img/star-plus-outline.svg">
+                    <img class="material-icons" src="../dashboard/img/eye-plus-outline.svg">
+                    <img class="material-icons" src="../dashboard/img/source-fork.svg">
+                </div>
+                </div>
+                <div class="card">
+                  <h5 class="title">Money Maker</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo..</p>
+                  <div class="actions">
+                      <img class="material-icons" src="../dashboard/img/star-plus-outline.svg">
+                    <img class="material-icons" src="../dashboard/img/eye-plus-outline.svg">
+                    <img class="material-icons" src="../dashboard/img/source-fork.svg">
+                </div>
+                </div>
             </div>
-            <div class="form-content">
-                <h2>Let's do this!</h2>
-                   <div class="item">
-                       <div>
-                           <label for="firstName">FIRST NAME</label>
-                           <input type="text" name="firstName" id="firstName" >
-                        </div>
-                        <div>
-                            <label for="lastName">LAST NAME</label>
-                            <input type="text" name="lastName" id="lastName" >
-                        </div>
-                    </div> 
-                    <div class="item">
-                        <div>
-                            <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email" >
-                        </div>
-                        <div>
-                            <label for="number">PHONE NUMBER</label>
-                            <input type="number" name="number" id="number" >
-                        </div>
+            </div>
+            <div class="announcements">
+                <h3 class="announcements">Announcements</h3>
+                
+                <ul class="card">
+                    <li class="announcement">
+                      <h5 class="card-title">Site Maintenance</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                        voluptatum ipsa cupiditate unde minima odio sunt fugit distinctio
+                        labore sit accusantium voluptas voluptate aliquid rem adipisci
+                        harum, quasi modi eum quae veritatis amet iusto ratione ea fugiat.
+                      </p>
+                    </li>
+                    <li class="announcement">
+                      <h5 class="card-title">Community Share Day</h5>
+                      <p class="card-text">
+                        Vel rem, ipsa officia commodi veniam excepturi, ex, molestias
+                        perspiciatis consequuntur sint error voluptatem cum facilis?
+                        Voluptas accusantium, nemo laboriosam quidem ipsum explicabo sed
+                        alias possimus reprehenderit libero? Quidem illo nisi fuga odio
+                        veritatis ipsa ex quae, aut saepe!
+                      </p>
+                    </li>
+                    <li class="announcement">
+                      <h5 class="card-title">Updated Privacy Policy</h5>
+                      <p class="card-text">
+                        Accusamus nihil dicta, quisquam, similique doloremque unde quidem
+                        quaerat a possimus eum deleniti libero, dolore asperiores
+                        nulla!Consectetur numquam ex, sit cupiditate cumque aut quas natus
+                        beatae nulla veritatis architecto maiores exercitationem debitis,
+                        adipisci delectus corporis iure optio.
+                      </p>
+                    </li>
+                  </ul>
+            </div>
+            <div class="trending">
+                <h3>Trending</h3>
+                <ul class="card">
+                  <li class="trend trend-1">
+                    <div class="picture"></div>
+                    <div class="account">
+                      <p class="username">@tegan</p>
+                      <p class="name card-text">World Peace Builder</p>
                     </div>
-                    <div class="item">
-                        <div>
-                            <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password" required >
-                            <span></span>
-                        </div>
-                        <div>
-                            <label for="confirmpassword">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirmpassword" id="confirmpassword" required >
-                        </div>
+                  </li>
+                  <li class="trend trend-2">
+                    <div class="picture"></div>
+                    <div class="account">
+                      <p class="username">@morgan</p>
+                      <p class="name card-text">Super Cool Project</p>
                     </div>
-                    
-                </div>
-                <div class="btn">
-                    <button type="submit">Create Account</button>
-                    <h5>Already have an account? <a href="">Log in</a></h5>
-                </div>
-                </form>
+                  </li>
+                  <li class="trend trend-3">
+                    <div class="picture"></div>
+                    <div class="account">
+                      <p class="username">@kendall</p>
+                      <p class="name card-text">Life Changing App</p>
+                    </div>
+                  </li>
+                  <li class="trend trend-4">
+                    <div class="picture"></div>
+                    <div class="account">
+                      <p class="username">@alex</p>
+                      <p class="name card-text">No Traffic Maker</p>
+                    </div>
+                  </li>
+                </ul>
+            </div>       
         </main>
-    </div>
-</body>
-<script src="projects/sign-up form/script.js"></script>
-  </html>
+  </body>
+  <script>
+    document.querySelector('.material-icons-outlined').addEventListener('click', showbar);
+    document.querySelector('h1 .material-icons-outlined').addEventListener('click', removebar);
+    
+    function showbar() {
+      document.querySelector('aside').classList.toggle('show-sidebar');
+      document.querySelector('main').style.marginTop = '-19.5em';
+      
+      
+    }
+    function removebar() {
+      document.querySelector('main').style.marginTop = '';
+      document.querySelector('aside').classList.replace('show-sidebar', 'sidebar');
+    }
+  </script>
+</html>
